@@ -10,12 +10,14 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();  // 행
-        int m = scanner.nextInt();  // 열
+        int m = scanner.nextInt();  // 행   3
+        int n = scanner.nextInt();  // 열   5
+
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
